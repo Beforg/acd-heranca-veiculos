@@ -8,10 +8,10 @@ As classes OffRoad e Truck herdam da classe abstrata Vehicle, fazendo a implemen
 ### Estrutura da Atividade
 
 ```
-src/Vehicle -- Superclasse
-src/OffRoad -- Classe filha
-src/Truck  -- Classe filha
-src/Main -- Para execução dos testes
+heranca-veiculos/src/Vehicle -- Superclasse
+heranca-veiculos/src/OffRoad -- Classe filha
+heranca-veiculos/src/Truck  -- Classe filha
+heranca-veiculos/src/Main -- Para execução dos testes
 ```
 
 
