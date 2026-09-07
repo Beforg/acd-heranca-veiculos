@@ -27,4 +27,10 @@ public abstract class Vehicle {
     }
 
     public abstract void move();
+
+    @Override
+    public String toString() {
+        return String.format("Pessengers: %s\nFuel Capacity: %.2f\n" +
+                " miles per gallon: %.2f", passengers, fuelCap, mpg);
+    }
 }
