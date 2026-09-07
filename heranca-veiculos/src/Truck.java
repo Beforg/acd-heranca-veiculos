@@ -2,9 +2,9 @@ public class Truck extends Vehicle{
 
     private final double cargoCap;
 
-    public Truck(int passengers, double fuelCap, double mpg, double supportedLoad) {
+    public Truck(int passengers, double fuelCap, double mpg, double cargoCap) {
         super(passengers, fuelCap, mpg);
-        this.cargoCap = supportedLoad;
+        this.cargoCap = cargoCap;
     }
 
     public double getCargoCap() {
